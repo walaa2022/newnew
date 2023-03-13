@@ -1,3 +1,5 @@
+import subprocess
+subprocess.call(['pip', 'install', 'gradio'])
 import gradio as gr
 from modules import scripts
 from scripts.stt_p_setup.insatllation import install_whisper , download_whispermodel
